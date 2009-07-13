@@ -23,4 +23,5 @@ module ResourceController
   end
 end
 
+require_dependency 'urligence'
 require File.dirname(__FILE__)+'/../rails/init.rb' unless ActionController::Base.include?(Urligence)
